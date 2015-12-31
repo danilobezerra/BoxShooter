@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Target-Positive Material
+  m_Name: Target-Negative2 Material
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _EMISSIONMAP _LIGHTMAPPING_DYNAMIC_LIGHTMAPS _LIGHTMAPPING_REALTIME
     _UVSEC_UV1
@@ -158,11 +158,11 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: 0, g: 0.25735295, b: 0.2254057, a: 1.3348337}
+        second: {r: 0.2573529, g: 0, b: 0.2254057, a: 1.3348337}
       data:
         first:
           name: _Color
-        second: {r: 0, g: 0.44852942, b: 0.17013186, a: 1}
+        second: {r: 0.44705883, g: 0, b: 0.17013186, a: 1}
       data:
         first:
           name: _SpecColor

@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Target-Negative Material
+  m_Name: Target-Negative1 Material
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _EMISSIONMAP _LIGHTMAPPING_DYNAMIC_LIGHTMAPS _LIGHTMAPPING_REALTIME
     _UVSEC_UV1
@@ -105,15 +105,15 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _AlphaTestRef
-        second: .5
+        second: 0.5
       data:
         first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -158,15 +158,15 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: .705882311, g: .394320428, b: 0, a: 1.33483374}
+        second: {r: 0.7058823, g: 0.39432043, b: 0, a: 1.3348337}
       data:
         first:
           name: _Color
-        second: {r: .911764681, g: .756413281, b: .348615915, a: 1}
+        second: {r: 0.9117647, g: 0.7564133, b: 0.3486159, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: 0, g: .0422413945, b: .125, a: .921999991}
+        second: {r: 0, g: 0.042241395, b: 0.125, a: 0.922}
       data:
         first:
           name: _EmissionColorUI
@@ -178,4 +178,4 @@ Material:
       data:
         first:
           name: _SpecularColor
-        second: {r: .156862751, g: .156862751, b: .156862751, a: 1}
+        second: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
